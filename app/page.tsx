@@ -34,15 +34,15 @@ const industries = [
   { name: "Residential Societies", img: "/images/hero-mumbai-security.png" },
   { name: "Corporate Offices", img: "/images/team-inspection.png" },
   { name: "Commercial Complexes", img: "/images/mumbai-business-district.png" },
-  { name: "Malls", img: "/images/mumbai-business-district.png" },
+  { name: "Malls", img: "/images/guard-visitor-control.png" },
   { name: "Hospitals", img: "/images/hospital-security.png" },
-  { name: "Hotels", img: "/images/hero-mumbai-security.png" },
-  { name: "Schools", img: "/images/hospital-security.png" },
+  { name: "Hotels", img: "/images/housekeeping-landscaping.png" },
+  { name: "Schools", img: "/images/safeforce.jpeg" },
   { name: "Factories", img: "/images/technical-maintenance.png" },
-  { name: "Warehouses", img: "/images/technical-maintenance.png" },
-  { name: "Construction Sites", img: "/images/technical-maintenance.png" },
+  { name: "Warehouses", img: "/images/stp-operations.png" },
+  { name: "Construction Sites", img: "/images/canine-handler.png" },
   { name: "Events", img: "/images/fire-event-safety.png" },
-  { name: "Institutions", img: "/images/hospital-security.png" },
+  { name: "Institutions", img: "/images/investigation-consultation.png" },
 ];
 
 function Icon({ name }: { name: string }) {
@@ -249,7 +249,7 @@ export default function HomePage() {
       <section className="py-10 sm:py-12 lg:py-16 bg-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           <div className="relative order-2 lg:order-1">
-            <img src="/images/hero-mumbai-security.png" alt="SAFE Guard FORCE guard" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top border border-slate-200" />
+            <img src="/images/safeforce.jpeg" alt="SAFE Guard FORCE uniformed personnel" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top border border-slate-200" />
             <div className="absolute -bottom-4 -right-4 hidden lg:flex bg-[#0A1931] border-2 border-white shadow-xl p-5 items-center gap-4">
               <img src="/images/safelogo.png" alt="Logo" className="w-16 h-16 object-contain" />
               <div>
@@ -335,8 +335,8 @@ export default function HomePage() {
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-[#C5A253] hover:bg-[#D4AF37] active:bg-[#B8941F] text-[#070F1F] px-6 sm:px-8 py-3.5 sm:py-4 text-xs tracking-[0.16em] uppercase font-bold transition min-h-[48px] touch-manipulation">
                 Request a Consultation →
               </Link>
-              <a href="tel:9323581437" className="inline-flex items-center justify-center border border-white/30 hover:bg-white hover:text-[#070F1F] active:bg-white active:text-[#070F1F] text-white px-6 sm:px-8 py-3.5 sm:py-4 text-xs tracking-[0.16em] uppercase font-bold transition min-h-[48px] touch-manipulation">
-                Call Now — 9323581437
+              <a href="tel:9136645289" className="inline-flex items-center justify-center border border-white/30 hover:bg-white hover:text-[#070F1F] active:bg-white active:text-[#070F1F] text-white px-6 sm:px-8 py-3.5 sm:py-4 text-xs tracking-[0.16em] uppercase font-bold transition min-h-[48px] touch-manipulation">
+                Call Now — 9136645289
               </a>
             </div>
           </div>

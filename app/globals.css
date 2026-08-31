@@ -58,6 +58,21 @@ body {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
+
+/* Keep the mobile navigation in its own composited layer while touch-scrolling. */
+.mobile-fixed-header {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media (min-width: 1024px) {
+  .mobile-fixed-header {
+    transform: none;
+    -webkit-transform: none;
+  }
+}
 .kenburns {
   animation: kenburns 6s ease-in-out infinite alternate;
 }

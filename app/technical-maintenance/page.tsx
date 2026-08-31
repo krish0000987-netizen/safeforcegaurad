@@ -20,7 +20,7 @@ export default function TechnicalPage() {
             {[
               ["Electrical Maintenance", "Panels, lighting, DG sets, cabling and preventive checks.", "/images/service-technical.png"],
               ["Plumbing", "Water supply, drainage, pumps and leakage management.", "/images/service-stp.png"],
-              ["HVAC", "AC plants, AHUs, ventilation and climate control upkeep.", "/images/technical-maintenance.png"],
+              ["HVAC", "AC plants, AHUs, ventilation and climate control upkeep.", "/images/service-helpdesk.png"],
               ["Civil Maintenance", "Masonry, painting, waterproofing and structural upkeep.", "/images/mumbai-business-district.png"],
               ["Preventive Maintenance", "Scheduled checklists to avoid breakdowns and extend life.", "/images/team-inspection.png"],
               ["Infrastructure Support", "Common-area systems, lifts liaison and utility rooms.", "/images/service-facility-manager.png"],
@@ -75,8 +75,8 @@ export default function TechnicalPage() {
             <div className="space-y-4">
               <img src="/images/stp-operations.png" alt="STP plant" className="w-full h-[380px] object-cover" />
               <div className="grid grid-cols-2 gap-4">
-                <img src="/images/service-technical.png" alt="Control panel" className="h-44 w-full object-cover" />
-                <img src="/images/service-stp.png" alt="Pumps" className="h-44 w-full object-cover" />
+                <img src="/images/service-gardening.png" alt="Control panel" className="h-44 w-full object-cover" />
+                <img src="/images/service-pest-control.png" alt="Pumps" className="h-44 w-full object-cover" />
               </div>
               <div className="bg-[#C5A253] p-5 text-[#070F1F]">
                 <div className="font-bold text-sm">Compliance-Focused Operations</div>

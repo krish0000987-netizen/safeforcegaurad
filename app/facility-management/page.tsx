@@ -39,7 +39,7 @@ export default function FacilityPage() {
             </div>
           </div>
           <div className="space-y-6">
-            <img src="/images/team-inspection.png" alt="Facility manager" className="w-full h-[320px] object-cover" />
+            <img src="/images/service-facility-manager.png" alt="Facility manager" className="w-full h-[320px] object-cover" />
             <div className="bg-[#0A1931] p-7 text-white">
               <div className="text-[#C5A253] text-xs tracking-[0.18em] uppercase font-bold">Operating Model</div>
               <div className="grid grid-cols-5 gap-2 mt-4 text-center">

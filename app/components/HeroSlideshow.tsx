@@ -16,8 +16,8 @@ const slides = [
     alt: "Security personnel monitoring CCTV",
   },
   {
-    image: "/images/team-inspection.png",
-    alt: "Facility management team inspection",
+    image: "/images/guard-visitor-control.png",
+    alt: "Professional visitor access control at a secure premises",
   },
   {
     image: "/images/housekeeping-landscaping.png",
@@ -102,9 +102,9 @@ export default function HeroSlideshow() {
               Get a Free Consultation
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </Link>
-            <a href="tel:9323581437" className="inline-flex items-center justify-center gap-2 border border-white/40 sm:border-white/30 hover:bg-white hover:text-[#070F1F] active:bg-white active:text-[#070F1F] text-white px-6 sm:px-8 py-3.5 sm:py-4 text-[11px] sm:text-xs tracking-[0.14em] sm:tracking-[0.16em] uppercase font-bold transition min-h-[48px] touch-manipulation">
+            <a href="tel:9136645289" className="inline-flex items-center justify-center gap-2 border border-white/40 sm:border-white/30 hover:bg-white hover:text-[#070F1F] active:bg-white active:text-[#070F1F] text-white px-6 sm:px-8 py-3.5 sm:py-4 text-[11px] sm:text-xs tracking-[0.14em] sm:tracking-[0.16em] uppercase font-bold transition min-h-[48px] touch-manipulation">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              Call 9323581437
+              Call 9136645289
             </a>
           </div>
 

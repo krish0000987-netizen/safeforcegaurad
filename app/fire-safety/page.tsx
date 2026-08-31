@@ -10,7 +10,7 @@ export default function FireSafetyPage() {
         eyebrow="Fire • Safety • Dog Squad • Events"
         title={`Prepared for\nEvery Situation.`}
         subtitle="Specialized safety, canine and event-security capabilities for proactive risk mitigation and large-gathering management."
-        image="/images/fire-event-safety.png"
+        image="/images/service-fire-safety.png"
         cta={{ label: "Plan Your Security Coverage", href: "/contact" }}
       />
 
@@ -26,7 +26,7 @@ export default function FireSafetyPage() {
               <li className="flex gap-2"><span className="text-[#C5A253]">▸</span> Fire drills & staff training</li>
               <li className="flex gap-2"><span className="text-[#C5A253]">▸</span> Safety audits & emergency response</li>
             </ul>
-            <img src="/images/fire-event-safety.png" alt="Fire safety" className="w-full h-48 object-cover mt-6" />
+            <img src="/images/service-fire-safety.png" alt="Fire safety" className="w-full h-48 object-cover mt-6" />
           </div>
 
           <div className="border border-slate-100 p-8 bg-[#070F1F] text-white">
@@ -54,16 +54,16 @@ export default function FireSafetyPage() {
               <li>• Queue discipline</li>
               <li>• Conflict de-escalation</li>
             </ul>
-            <img src="/images/fire-event-safety.png" alt="Bouncer" className="w-full h-48 object-cover mt-6" />
+            <img src="/images/service-event-security.png" alt="Event security professional" className="w-full h-48 object-cover mt-6" />
           </div>
           <div className="border border-slate-100 p-8 bg-[#F8FAFC]">
             <div className="text-[#C5A253] text-[11px] tracking-[0.20em] uppercase font-bold">Event Security</div>
             <h2 className="text-[#0A1931] font-black text-xl mt-2">Secure, Seamless Events</h2>
             <p className="text-slate-500 text-sm mt-3">Coverage for weddings, corporate events, exhibitions, clubs and private functions — from guest screening to stage and green-room protection.</p>
             <div className="grid grid-cols-3 gap-2 mt-5">
-              <img src="/images/service-event-security.png" className="h-28 w-full object-cover" alt="Event entry security" />
+              <img src="/images/guard-visitor-control.png" className="h-28 w-full object-cover" alt="Event entry security" />
               <img src="/images/fire-event-safety.png" className="h-28 w-full object-cover" alt="Safety marshal at event" />
-              <img src="/images/canine-handler.png" className="h-28 w-full object-cover" alt="Canine security at venue" />
+              <img src="/images/service-dog-squad.png" className="h-28 w-full object-cover" alt="Canine security at venue" />
             </div>
             <Link href="/contact" className="inline-flex mt-6 bg-[#0A1931] text-white px-6 py-3 text-xs tracking-[0.16em] uppercase font-bold">Plan Your Security Coverage</Link>
           </div>

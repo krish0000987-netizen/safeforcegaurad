@@ -65,7 +65,7 @@ export default function SecurityPage() {
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link href="/contact" className="bg-[#0A1931] text-white px-7 py-3.5 text-xs tracking-[0.16em] uppercase font-bold">Request Security Assessment</Link>
-            <a href="tel:9323581437" className="border border-slate-300 px-7 py-3.5 text-xs tracking-[0.16em] uppercase font-bold text-[#0A1931]">Call 9323581437</a>
+            <a href="tel:9136645289" className="border border-slate-300 px-7 py-3.5 text-xs tracking-[0.16em] uppercase font-bold text-[#0A1931]">Call 9136645289</a>
           </div>
         </div>
       </section>
