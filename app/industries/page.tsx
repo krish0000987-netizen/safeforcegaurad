@@ -4,18 +4,18 @@ import Link from "next/link";
 export const metadata = { title: "Industries We Serve — SAFE Guard FORCE" };
 
 const items = [
-  { title: "Residential Societies", desc: "Security, housekeeping, facility management, gardening, STP and support staff for harmonious living.", img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80", points: ["Gate & visitor control", "Housekeeping & gardening", "Facility & STP ops"] },
-  { title: "Corporate Offices", desc: "Reception, security, housekeeping and technical support for productive workplaces.", img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80", points: ["Front-office & helpdesk", "Access & CCTV", "AMC coordination"] },
-  { title: "Commercial Complexes", desc: "High-footfall protocols for lobbies, parking and common areas.", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80", points: ["Visitor management", "Parking discipline", "Technical upkeep"] },
-  { title: "Malls", desc: "Crowd management, asset protection and hygiene at scale.", img: "https://images.unsplash.com/photo-1519566335946-e6f65f0f84ad?w=600&q=80", points: ["Crowd & queue", "Lost-and-found liaison", "Emergency drills"] },
-  { title: "Hospitals", desc: "Sensitive, hygienic and disciplined operations for healthcare.", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80", points: ["Infection-control cleaning", "Gate & ward security", "Support staff"] },
-  { title: "Hotels", desc: "Guest-facing excellence in security, housekeeping and maintenance.", img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80", points: ["Housekeeping", "Luggage & gate", "Technical rooms"] },
-  { title: "Schools & Institutions", desc: "Child-safe, vigilant and clean campuses.", img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80", points: ["ID & visitor checks", "Patrols & CCTV", "Hygiene"] },
-  { title: "Factories", desc: "Perimeter, material and workforce security with technical support.", img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80", points: ["Material gate", "Shift supervision", "Safety audits"] },
-  { title: "Warehouses", desc: "Inventory protection and dock discipline.", img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80", points: ["Perimeter & CCTV", "Inward/outward logs", "Night patrols"] },
-  { title: "Construction Sites", desc: "Overnight material, equipment and labour management.", img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80", points: ["Material watch", "Labour verification", "Equipment logs"] },
-  { title: "Events", desc: "Bouncers, crowd control and discreet VIP protection.", img: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&q=80", points: ["Entry & stage", "Crowd flow", "Green-room"] },
-  { title: "Other Institutions", desc: "Customized integrated solutions for any premises type.", img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80", points: ["Assessment first", "Custom SOPs", "One partner"] },
+  { title: "Residential Societies", desc: "Security, housekeeping, facility management, gardening, STP and support staff for harmonious living.", img: "/images/hero-mumbai-security.png", points: ["Gate & visitor control", "Housekeeping & gardening", "Facility & STP ops"] },
+  { title: "Corporate Offices", desc: "Reception, security, housekeeping and technical support for productive workplaces.", img: "/images/team-inspection.png", points: ["Front-office & helpdesk", "Access & CCTV", "AMC coordination"] },
+  { title: "Commercial Complexes", desc: "High-footfall protocols for lobbies, parking and common areas.", img: "/images/mumbai-business-district.png", points: ["Visitor management", "Parking discipline", "Technical upkeep"] },
+  { title: "Malls", desc: "Crowd management, asset protection and hygiene at scale.", img: "/images/mumbai-business-district.png", points: ["Crowd & queue", "Lost-and-found liaison", "Emergency drills"] },
+  { title: "Hospitals", desc: "Sensitive, hygienic and disciplined operations for healthcare.", img: "/images/hospital-security.png", points: ["Infection-control cleaning", "Gate & ward security", "Support staff"] },
+  { title: "Hotels", desc: "Guest-facing excellence in security, housekeeping and maintenance.", img: "/images/hero-mumbai-security.png", points: ["Housekeeping", "Luggage & gate", "Technical rooms"] },
+  { title: "Schools & Institutions", desc: "Child-safe, vigilant and clean campuses.", img: "/images/hospital-security.png", points: ["ID & visitor checks", "Patrols & CCTV", "Hygiene"] },
+  { title: "Factories", desc: "Perimeter, material and workforce security with technical support.", img: "/images/technical-maintenance.png", points: ["Material gate", "Shift supervision", "Safety audits"] },
+  { title: "Warehouses", desc: "Inventory protection and dock discipline.", img: "/images/technical-maintenance.png", points: ["Perimeter & CCTV", "Inward/outward logs", "Night patrols"] },
+  { title: "Construction Sites", desc: "Overnight material, equipment and labour management.", img: "/images/technical-maintenance.png", points: ["Material watch", "Labour verification", "Equipment logs"] },
+  { title: "Events", desc: "Bouncers, crowd control and discreet VIP protection.", img: "/images/fire-event-safety.png", points: ["Entry & stage", "Crowd flow", "Green-room"] },
+  { title: "Other Institutions", desc: "Customized integrated solutions for any premises type.", img: "/images/hospital-security.png", points: ["Assessment first", "Custom SOPs", "One partner"] },
 ];
 
 export default function IndustriesPage() {
@@ -25,7 +25,7 @@ export default function IndustriesPage() {
         eyebrow="Industries We Serve"
         title={`Solutions Designed\nAround Your Environment.`}
         subtitle="Every premises has distinct risks, footfall and operational rhythms — we tailor manpower, SOPs and supervision accordingly."
-        image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"
+        image="/images/mumbai-business-district.png"
       />
 
       <section className="py-16 bg-white">

@@ -4,23 +4,23 @@ import Link from "next/link";
 
 const slides = [
   {
-    image: "/images/safeforce.jpeg",
+    image: "/images/hero-mumbai-security.png",
     alt: "SAFE Guard FORCE trained security personnel",
   },
   {
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
+    image: "/images/mumbai-business-district.png",
     alt: "Premium corporate building entrance with security",
   },
   {
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80",
+    image: "/images/team-inspection.png",
     alt: "Security personnel monitoring CCTV",
   },
   {
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80",
+    image: "/images/team-inspection.png",
     alt: "Facility management team inspection",
   },
   {
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80",
+    image: "/images/housekeeping-landscaping.png",
     alt: "Professional housekeeping team",
   },
 ];

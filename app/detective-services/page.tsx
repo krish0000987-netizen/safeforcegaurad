@@ -10,7 +10,7 @@ export default function DetectivePage() {
         eyebrow="Confidential Investigation"
         title={`Confidential\nInformation.\nProfessional\nInvestigation.`}
         subtitle="Discreet, lawful and professionally conducted verification, surveillance and corporate investigations — with strict confidentiality."
-        image="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80"
+        image="/images/investigation-consultation.png"
         cta={{ label: "Request Confidential Consultation", href: "/contact" }}
       />
 
@@ -57,7 +57,7 @@ export default function DetectivePage() {
             <Link href="/contact" className="inline-flex mt-8 bg-[#C5A253] text-[#070F1F] px-7 py-3.5 text-xs tracking-[0.16em] uppercase font-bold">Request Confidential Consultation</Link>
           </div>
           <div className="relative">
-            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80" alt="Investigation" className="w-full h-[460px] object-cover opacity-90" />
+            <img src="/images/investigation-consultation.png" alt="Investigation consultation" className="w-full h-[460px] object-cover opacity-90" />
             <div className="absolute inset-0 border border-[#C5A253]/20 m-4 pointer-events-none" />
           </div>
         </div>

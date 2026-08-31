@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata = { title: "Security Services — SAFE Guard FORCE" };
 
 const services = [
-  { title: "Security Guard Services", desc: "Trained, verified and uniformed guards for access control, perimeter protection and asset safety.", img: "/images/safeforce.jpeg" },
-  { title: "Security Supervisors", desc: "On-site supervision, shift management, reporting and discipline enforcement.", img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" },
-  { title: "Security Officers", desc: "Experienced officers for large premises, escalation handling and client liaison.", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80" },
-  { title: "Access Control", desc: "Gate management, biometric/RFID coordination and authorized-entry protocols.", img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
-  { title: "Visitor Management", desc: "Verification, visitor passes, logs and escort protocols.", img: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" },
-  { title: "Vehicle Verification", desc: "Entry/exit logging, parking discipline and anti-tailgating vigilance.", img: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&q=80" },
-  { title: "Patrolling", desc: "Foot and perimeter patrols with scheduled and random checks.", img: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=600&q=80" },
-  { title: "CCTV Monitoring", desc: "Control-room vigilance, incident flagging and evidence preservation.", img: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80" },
+  { title: "Security Guard Services", desc: "Trained, verified and uniformed guards for access control, perimeter protection and asset safety.", img: "/images/hero-mumbai-security.png" },
+  { title: "Security Supervisors", desc: "On-site supervision, shift management, reporting and discipline enforcement.", img: "/images/team-inspection.png" },
+  { title: "Security Officers", desc: "Experienced officers for large premises, escalation handling and client liaison.", img: "/images/team-inspection.png" },
+  { title: "Access Control", desc: "Gate management, biometric/RFID coordination and authorized-entry protocols.", img: "/images/team-inspection.png" },
+  { title: "Visitor Management", desc: "Verification, visitor passes, logs and escort protocols.", img: "/images/guard-visitor-control.png" },
+  { title: "Vehicle Verification", desc: "Entry/exit logging, parking discipline and anti-tailgating vigilance.", img: "/images/guard-visitor-control.png" },
+  { title: "Patrolling", desc: "Foot and perimeter patrols with scheduled and random checks.", img: "/images/guard-visitor-control.png" },
+  { title: "CCTV Monitoring", desc: "Control-room vigilance, incident flagging and evidence preservation.", img: "/images/team-inspection.png" },
 ];
 
 export default function SecurityPage() {
@@ -21,7 +21,7 @@ export default function SecurityPage() {
         eyebrow="Security Services"
         title={`Professional Security.\nProactive Protection.`}
         subtitle="Comprehensive manned guarding, supervision and technology-supported security for residential, corporate, industrial and institutional premises."
-        image="/images/safeforce.jpeg"
+        image="/images/hero-mumbai-security.png"
         cta={{ label: "Request Security Assessment", href: "/contact" }}
       />
 
