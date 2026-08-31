@@ -7,18 +7,18 @@ export const metadata = {
 };
 
 const services = [
-  { title: "Security Services", desc: "Trained & verified guards, supervisors, officers, bouncers, access control and patrolling.", icon: "shield", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" },
-  { title: "Facility Management", desc: "Society & facility managers, supervisors, inspections and vendor coordination.", icon: "building", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
-  { title: "Housekeeping", desc: "Cleaning, sanitization, waste management and hygiene maintenance.", icon: "sparkles", img: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80" },
-  { title: "Gardening & Landscaping", desc: "Lawn, garden, irrigation, pruning and landscape maintenance.", icon: "leaf", img: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80" },
-  { title: "Fire & Safety", desc: "Fire marshals, inspections, evacuation planning and safety training.", icon: "flame", img: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80" },
-  { title: "Dog Squad", desc: "Trained sniffer dogs & handlers for patrol and detection.", icon: "paw", img: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=600&q=80" },
-  { title: "Event Security", desc: "Crowd control, VIP protection and venue entry management.", icon: "users", img: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&q=80" },
-  { title: "Technical Maintenance", desc: "Electrical, plumbing, HVAC, civil and infrastructure support.", icon: "wrench", img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" },
-  { title: "Pest Control", desc: "Mosquito, termite, cockroach and rodent management.", icon: "bug", img: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" },
-  { title: "Reception & Helpdesk", desc: "Receptionists, helpdesk, pantry and office support staff.", icon: "headset", img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
-  { title: "Detective Services", desc: "Confidential investigations, verification and surveillance.", icon: "search", img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" },
-  { title: "STP Operations", desc: "Sewage treatment plant operation, maintenance & compliance.", icon: "droplet", img: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" },
+  { title: "Security Services", desc: "Trained & verified guards, supervisors, officers, bouncers, access control and patrolling.", icon: "shield", img: "/images/guard-visitor-control.png" },
+  { title: "Facility Management", desc: "Society & facility managers, supervisors, inspections and vendor coordination.", icon: "building", img: "/images/mumbai-business-district.png" },
+  { title: "Housekeeping", desc: "Cleaning, sanitization, waste management and hygiene maintenance.", icon: "sparkles", img: "/images/housekeeping-landscaping.png" },
+  { title: "Gardening & Landscaping", desc: "Lawn, garden, irrigation, pruning and landscape maintenance.", icon: "leaf", img: "/images/housekeeping-landscaping.png" },
+  { title: "Fire & Safety", desc: "Fire marshals, inspections, evacuation planning and safety training.", icon: "flame", img: "/images/fire-event-safety.png" },
+  { title: "Dog Squad", desc: "Trained sniffer dogs & handlers for patrol and detection.", icon: "paw", img: "/images/guard-visitor-control.png" },
+  { title: "Event Security", desc: "Crowd control, VIP protection and venue entry management.", icon: "users", img: "/images/fire-event-safety.png" },
+  { title: "Technical Maintenance", desc: "Electrical, plumbing, HVAC, civil and infrastructure support.", icon: "wrench", img: "/images/technical-maintenance.png" },
+  { title: "Pest Control", desc: "Mosquito, termite, cockroach and rodent management.", icon: "bug", img: "/images/technical-maintenance.png" },
+  { title: "Reception & Helpdesk", desc: "Receptionists, helpdesk, pantry and office support staff.", icon: "headset", img: "/images/team-inspection.png" },
+  { title: "Detective Services", desc: "Confidential investigations, verification and surveillance.", icon: "search", img: "/images/team-inspection.png" },
+  { title: "STP Operations", desc: "Sewage treatment plant operation, maintenance & compliance.", icon: "droplet", img: "/images/technical-maintenance.png" },
 ];
 
 const whyChoose = [
@@ -31,18 +31,18 @@ const whyChoose = [
 ];
 
 const industries = [
-  { name: "Residential Societies", img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" },
-  { name: "Corporate Offices", img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
-  { name: "Commercial Complexes", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
-  { name: "Malls", img: "https://images.unsplash.com/photo-1519566335946-e6f65f0f84ad?w=600&q=80" },
-  { name: "Hospitals", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80" },
-  { name: "Hotels", img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" },
-  { name: "Schools", img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80" },
-  { name: "Factories", img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" },
-  { name: "Warehouses", img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80" },
-  { name: "Construction Sites", img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" },
-  { name: "Events", img: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&q=80" },
-  { name: "Institutions", img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" },
+  { name: "Residential Societies", img: "/images/hero-mumbai-security.png" },
+  { name: "Corporate Offices", img: "/images/team-inspection.png" },
+  { name: "Commercial Complexes", img: "/images/mumbai-business-district.png" },
+  { name: "Malls", img: "/images/mumbai-business-district.png" },
+  { name: "Hospitals", img: "/images/hospital-security.png" },
+  { name: "Hotels", img: "/images/hero-mumbai-security.png" },
+  { name: "Schools", img: "/images/hospital-security.png" },
+  { name: "Factories", img: "/images/technical-maintenance.png" },
+  { name: "Warehouses", img: "/images/technical-maintenance.png" },
+  { name: "Construction Sites", img: "/images/technical-maintenance.png" },
+  { name: "Events", img: "/images/fire-event-safety.png" },
+  { name: "Institutions", img: "/images/hospital-security.png" },
 ];
 
 function Icon({ name }: { name: string }) {
@@ -105,7 +105,7 @@ export default function HomePage() {
           </div>
           <div className="relative">
             <div className="relative overflow-hidden border border-slate-200">
-              <img src="/images/safeforce.jpeg" alt="SAFE Guard FORCE personnel in ceremonial uniform" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top" />
+              <img src="/images/hero-mumbai-security.png" alt="SAFE Guard FORCE personnel in ceremonial uniform" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top" />
               <div className="absolute top-3 sm:top-4 left-3 sm:left-4 bg-white p-1 sm:p-1.5 shadow-lg">
                 <img src="/images/safelogo.jpeg" alt="Badge" className="w-10 h-10 sm:w-14 sm:h-14 object-contain" />
               </div>
@@ -166,7 +166,7 @@ export default function HomePage() {
 
       {/* Why Choose */}
       <section className="py-10 sm:py-12 lg:py-20 bg-[#0A1931] relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80)", backgroundSize: "cover" }} />
+        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "url(/images/mumbai-business-district.png)", backgroundSize: "cover" }} />
         <div className="relative max-w-[1280px] mx-auto px-4 sm:px-6">
           <div className="max-w-[640px] mb-6 sm:mb-10">
             <div className="text-[#C5A253] text-[10px] sm:text-[11px] tracking-[0.18em] sm:tracking-[0.20em] uppercase font-bold mb-2 sm:mb-3">Why Organizations Trust Us</div>
@@ -249,7 +249,7 @@ export default function HomePage() {
       <section className="py-10 sm:py-12 lg:py-16 bg-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           <div className="relative order-2 lg:order-1">
-            <img src="/images/safeforce.jpeg" alt="SAFE Guard FORCE guard" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top border border-slate-200" />
+            <img src="/images/hero-mumbai-security.png" alt="SAFE Guard FORCE guard" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top border border-slate-200" />
             <div className="absolute -bottom-4 -right-4 hidden lg:flex bg-[#0A1931] border-2 border-white shadow-xl p-5 items-center gap-4">
               <img src="/images/safelogo.jpeg" alt="Logo" className="w-16 h-16 bg-white p-1 object-contain" />
               <div>
@@ -320,7 +320,7 @@ export default function HomePage() {
 
       {/* Final CTA */}
       <section className="relative min-h-[420px] sm:h-[420px] lg:h-[480px] overflow-hidden bg-[#070F1F] py-10 sm:py-0">
-        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80" alt="Corporate building night" className="absolute inset-0 w-full h-full object-cover opacity-60" />
+        <img src="/images/mumbai-business-district.png" alt="Corporate building night" className="absolute inset-0 w-full h-full object-cover opacity-60" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#070F1F] via-[#070F1F]/80 sm:via-[#070F1F]/75 to-[#070F1F]/60 sm:to-[#070F1F]/40" />
         <div className="relative z-10 h-full min-h-[420px] sm:min-h-0 max-w-[1280px] mx-auto px-4 sm:px-6 flex flex-col justify-center py-8 sm:py-0">
           <div className="max-w-[640px]">

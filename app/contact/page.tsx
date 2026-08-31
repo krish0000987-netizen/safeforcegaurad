@@ -9,7 +9,7 @@ export default function ContactPage() {
         eyebrow="Contact SAFE Guard FORCE"
         title={`Let's Make Your\nPremises Safer,\nCleaner & Better Managed.`}
         subtitle="Reach our team for a free consultation, site assessment or confidential discussion. Mumbai-based, nationwide capability."
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+        image="/images/team-inspection.png"
       />
 
       <section className="py-16 bg-white">
@@ -56,7 +56,7 @@ export default function ContactPage() {
               <div className="text-[#0A1931] font-bold text-sm">Ghatkopar West, Mumbai</div>
               <p className="text-slate-500 text-sm mt-1">Located opposite Shreyash Cinema on LBS Marg — accessible from Ghatkopar Metro and Eastern Express Highway.</p>
               <div className="mt-4 h-48 bg-slate-200 relative overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80" alt="Map" className="w-full h-full object-cover opacity-60" />
+                <img src="/images/mumbai-business-district.png" alt="Map" className="w-full h-full object-cover opacity-60" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="bg-[#0A1931] text-white px-4 py-2 text-xs tracking-widest uppercase font-bold shadow-lg">📍 Kailash Esplanade, LBS Marg</div>
                 </div>

@@ -10,7 +10,7 @@ export default function HousekeepingPage() {
         eyebrow="Housekeeping, Gardening & Hygiene"
         title={`Cleaner Spaces.\nHealthier Environments.`}
         subtitle="Professional cleaning, gardening and pest-control services that elevate hygiene, appearance and occupant experience across residential, commercial and institutional premises."
-        image="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80"
+        image="/images/housekeeping-landscaping.png"
         cta={{ label: "Request Hygiene Assessment", href: "/contact" }}
       />
 
@@ -18,7 +18,7 @@ export default function HousekeepingPage() {
         <div className="max-w-[1280px] mx-auto px-6 space-y-16">
           {/* Housekeeping */}
           <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80" alt="Housekeeping" className="w-full h-[420px] object-cover" />
+            <img src="/images/housekeeping-landscaping.png" alt="Housekeeping" className="w-full h-[420px] object-cover" />
             <div>
               <div className="text-[#C5A253] text-[11px] tracking-[0.20em] uppercase font-bold mb-3">Housekeeping</div>
               <h2 className="text-[#0A1931] font-black text-[28px] leading-none">Professional Cleaning & Sanitization</h2>
@@ -43,12 +43,12 @@ export default function HousekeepingPage() {
                 ))}
               </ul>
             </div>
-            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80" alt="Gardening" className="w-full h-[420px] object-cover order-1 lg:order-2" />
+            <img src="/images/housekeeping-landscaping.png" alt="Gardening" className="w-full h-[420px] object-cover order-1 lg:order-2" />
           </div>
 
           {/* Pest control */}
           <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" alt="Pest control" className="w-full h-[420px] object-cover" />
+            <img src="/images/housekeeping-landscaping.png" alt="Pest control and hygiene" className="w-full h-[420px] object-cover" />
             <div>
               <div className="text-[#C5A253] text-[11px] tracking-[0.20em] uppercase font-bold mb-3">Pest Control & Hygiene</div>
               <h2 className="text-[#0A1931] font-black text-[28px] leading-none">Preventive Hygiene & Pest Management</h2>
