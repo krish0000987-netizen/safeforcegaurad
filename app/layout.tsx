@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   ],
   verification: { google: "" },
   icons: {
-    icon: "/images/safelogo.jpeg",
-    apple: "/images/safelogo.jpeg",
+    icon: "/images/safelogo.png",
+    apple: "/images/safelogo.png",
   },
   openGraph: {
-    images: ["/images/safelogo.jpeg"],
+    images: ["/images/safelogo.png"],
   },
 };
 
