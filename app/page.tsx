@@ -107,7 +107,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden border border-slate-200">
               <img src="/images/hero-mumbai-security.png" alt="SAFE Guard FORCE personnel in ceremonial uniform" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top" />
               <div className="absolute top-3 sm:top-4 left-3 sm:left-4 bg-white p-1 sm:p-1.5 shadow-lg">
-                <img src="/images/safelogo.jpeg" alt="Badge" className="w-10 h-10 sm:w-14 sm:h-14 object-contain" />
+                <img src="/images/safelogo.png" alt="Badge" className="w-10 h-10 sm:w-14 sm:h-14 object-contain" />
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-[#0A1931] p-4 sm:p-6 flex items-center justify-between gap-2">
                 <div className="min-w-0">
@@ -251,7 +251,7 @@ export default function HomePage() {
           <div className="relative order-2 lg:order-1">
             <img src="/images/hero-mumbai-security.png" alt="SAFE Guard FORCE guard" className="w-full h-[380px] sm:h-[440px] lg:h-[520px] object-cover object-top border border-slate-200" />
             <div className="absolute -bottom-4 -right-4 hidden lg:flex bg-[#0A1931] border-2 border-white shadow-xl p-5 items-center gap-4">
-              <img src="/images/safelogo.jpeg" alt="Logo" className="w-16 h-16 bg-white p-1 object-contain" />
+              <img src="/images/safelogo.png" alt="Logo" className="w-16 h-16 bg-white p-1 object-contain" />
               <div>
                 <div className="text-[#C5A253] text-xs tracking-[0.18em] uppercase font-bold">Your Security.</div>
                 <div className="text-white font-black text-sm tracking-wide">OUR PRIORITY.</div>
@@ -260,7 +260,7 @@ export default function HomePage() {
             </div>
             {/* Mobile badge */}
             <div className="flex lg:hidden bg-[#0A1931] p-3 items-center gap-3 mt-0 border-t-0 border border-slate-200 border-t-0">
-              <img src="/images/safelogo.jpeg" alt="Logo" className="w-10 h-10 bg-white p-1 object-contain shrink-0" />
+              <img src="/images/safelogo.png" alt="Logo" className="w-10 h-10 bg-white p-1 object-contain shrink-0" />
               <div>
                 <div className="text-[#C5A253] text-[10px] tracking-[0.16em] uppercase font-bold">Your Security. Our Priority.</div>
                 <div className="text-white/70 text-xs">Disciplined • Verified • Presentable</div>

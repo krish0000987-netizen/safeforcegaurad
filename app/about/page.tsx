@@ -39,7 +39,7 @@ export default function AboutPage() {
               </div>
               <div className="col-span-2 flex flex-col gap-3">
                 <div className="bg-white border border-slate-200 p-4 flex flex-col items-center text-center">
-                  <img src="/images/safelogo.jpeg" alt="SAFE Guard FORCE shield" className="w-24 h-24 object-contain" />
+                  <img src="/images/safelogo.png" alt="SAFE Guard FORCE shield" className="w-24 h-24 object-contain" />
                   <div className="text-[#0A1931] font-black text-xs tracking-widest uppercase mt-2">SAFE GUARD FORCE</div>
                   <div className="text-[#C5A253] text-[10px] tracking-widest uppercase font-bold">Your Security. Our Priority.</div>
                 </div>
@@ -48,7 +48,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="bg-[#0A1931] p-4 flex items-center gap-3">
-              <img src="/images/safelogo.jpeg" alt="Badge" className="w-10 h-10 bg-white p-1 object-contain" />
+              <img src="/images/safelogo.png" alt="Badge" className="w-10 h-10 bg-white p-1 object-contain" />
               <div className="text-white text-xs leading-tight">
                 <span className="text-[#C5A253] font-bold tracking-widest uppercase">Authentic Personnel</span><br />
                 <span className="text-white/70">Light blue shirt • Red beret • SAFE belt & patch • White gloves</span>
@@ -125,7 +125,7 @@ export default function AboutPage() {
           <div className="relative">
             <img src="/images/hero-mumbai-security.png" alt="Management approach - guard" className="w-full h-[460px] object-cover object-top border border-white/10" />
             <div className="absolute bottom-4 left-4 right-4 bg-white p-3 flex items-center gap-3">
-              <img src="/images/safelogo.jpeg" alt="Logo" className="w-10 h-10 object-contain" />
+              <img src="/images/safelogo.png" alt="Logo" className="w-10 h-10 object-contain" />
               <div className="text-[#0A1931] text-xs font-bold tracking-widest uppercase">Nationwide Security Group <span className="text-[#C5A253]">• Mumbai</span></div>
             </div>
           </div>
