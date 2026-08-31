@@ -4,13 +4,13 @@ import Link from "next/link";
 export const metadata = { title: "Security Services — SAFE Guard FORCE" };
 
 const services = [
-  { title: "Security Guard Services", desc: "Trained, verified and uniformed guards for access control, perimeter protection and asset safety.", img: "/images/hero-mumbai-security.png" },
-  { title: "Security Supervisors", desc: "On-site supervision, shift management, reporting and discipline enforcement.", img: "/images/team-inspection.png" },
-  { title: "Security Officers", desc: "Experienced officers for large premises, escalation handling and client liaison.", img: "/images/team-inspection.png" },
-  { title: "Access Control", desc: "Gate management, biometric/RFID coordination and authorized-entry protocols.", img: "/images/team-inspection.png" },
+  { title: "Security Guard Services", desc: "Trained, verified and uniformed guards for access control, perimeter protection and asset safety.", img: "/images/service-security-guard.png" },
+  { title: "Security Supervisors", desc: "On-site supervision, shift management, reporting and discipline enforcement.", img: "/images/service-facility-manager.png" },
+  { title: "Security Officers", desc: "Experienced officers for large premises, escalation handling and client liaison.", img: "/images/service-investigation.png" },
+  { title: "Access Control", desc: "Gate management, biometric/RFID coordination and authorized-entry protocols.", img: "/images/service-helpdesk.png" },
   { title: "Visitor Management", desc: "Verification, visitor passes, logs and escort protocols.", img: "/images/guard-visitor-control.png" },
-  { title: "Vehicle Verification", desc: "Entry/exit logging, parking discipline and anti-tailgating vigilance.", img: "/images/guard-visitor-control.png" },
-  { title: "Patrolling", desc: "Foot and perimeter patrols with scheduled and random checks.", img: "/images/guard-visitor-control.png" },
+  { title: "Vehicle Verification", desc: "Entry/exit logging, parking discipline and anti-tailgating vigilance.", img: "/images/mumbai-business-district.png" },
+  { title: "Patrolling", desc: "Foot and perimeter patrols with scheduled and random checks.", img: "/images/service-dog-squad.png" },
   { title: "CCTV Monitoring", desc: "Control-room vigilance, incident flagging and evidence preservation.", img: "/images/team-inspection.png" },
 ];
 

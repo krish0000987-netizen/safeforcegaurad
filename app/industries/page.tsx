@@ -4,15 +4,15 @@ import Link from "next/link";
 export const metadata = { title: "Industries We Serve — SAFE Guard FORCE" };
 
 const items = [
-  { title: "Residential Societies", desc: "Security, housekeeping, facility management, gardening, STP and support staff for harmonious living.", img: "/images/hero-mumbai-security.png", points: ["Gate & visitor control", "Housekeeping & gardening", "Facility & STP ops"] },
-  { title: "Corporate Offices", desc: "Reception, security, housekeeping and technical support for productive workplaces.", img: "/images/team-inspection.png", points: ["Front-office & helpdesk", "Access & CCTV", "AMC coordination"] },
-  { title: "Commercial Complexes", desc: "High-footfall protocols for lobbies, parking and common areas.", img: "/images/mumbai-business-district.png", points: ["Visitor management", "Parking discipline", "Technical upkeep"] },
+  { title: "Residential Societies", desc: "Security, housekeeping, facility management, gardening, STP and support staff for harmonious living.", img: "/images/service-facility-manager.png", points: ["Gate & visitor control", "Housekeeping & gardening", "Facility & STP ops"] },
+  { title: "Corporate Offices", desc: "Reception, security, housekeeping and technical support for productive workplaces.", img: "/images/service-helpdesk.png", points: ["Front-office & helpdesk", "Access & CCTV", "AMC coordination"] },
+  { title: "Commercial Complexes", desc: "High-footfall protocols for lobbies, parking and common areas.", img: "/images/service-event-security.png", points: ["Visitor management", "Parking discipline", "Technical upkeep"] },
   { title: "Malls", desc: "Crowd management, asset protection and hygiene at scale.", img: "/images/mumbai-business-district.png", points: ["Crowd & queue", "Lost-and-found liaison", "Emergency drills"] },
-  { title: "Hospitals", desc: "Sensitive, hygienic and disciplined operations for healthcare.", img: "/images/hospital-security.png", points: ["Infection-control cleaning", "Gate & ward security", "Support staff"] },
+  { title: "Hospitals", desc: "Sensitive, hygienic and disciplined operations for healthcare.", img: "/images/service-housekeeping.png", points: ["Infection-control cleaning", "Gate & ward security", "Support staff"] },
   { title: "Hotels", desc: "Guest-facing excellence in security, housekeeping and maintenance.", img: "/images/hero-mumbai-security.png", points: ["Housekeeping", "Luggage & gate", "Technical rooms"] },
-  { title: "Schools & Institutions", desc: "Child-safe, vigilant and clean campuses.", img: "/images/hospital-security.png", points: ["ID & visitor checks", "Patrols & CCTV", "Hygiene"] },
-  { title: "Factories", desc: "Perimeter, material and workforce security with technical support.", img: "/images/technical-maintenance.png", points: ["Material gate", "Shift supervision", "Safety audits"] },
-  { title: "Warehouses", desc: "Inventory protection and dock discipline.", img: "/images/technical-maintenance.png", points: ["Perimeter & CCTV", "Inward/outward logs", "Night patrols"] },
+  { title: "Schools & Institutions", desc: "Child-safe, vigilant and clean campuses.", img: "/images/team-inspection.png", points: ["ID & visitor checks", "Patrols & CCTV", "Hygiene"] },
+  { title: "Factories", desc: "Perimeter, material and workforce security with technical support.", img: "/images/service-technical.png", points: ["Material gate", "Shift supervision", "Safety audits"] },
+  { title: "Warehouses", desc: "Inventory protection and dock discipline.", img: "/images/service-stp.png", points: ["Perimeter & CCTV", "Inward/outward logs", "Night patrols"] },
   { title: "Construction Sites", desc: "Overnight material, equipment and labour management.", img: "/images/technical-maintenance.png", points: ["Material watch", "Labour verification", "Equipment logs"] },
   { title: "Events", desc: "Bouncers, crowd control and discreet VIP protection.", img: "/images/fire-event-safety.png", points: ["Entry & stage", "Crowd flow", "Green-room"] },
   { title: "Other Institutions", desc: "Customized integrated solutions for any premises type.", img: "/images/hospital-security.png", points: ["Assessment first", "Custom SOPs", "One partner"] },

@@ -61,9 +61,9 @@ export default function FireSafetyPage() {
             <h2 className="text-[#0A1931] font-black text-xl mt-2">Secure, Seamless Events</h2>
             <p className="text-slate-500 text-sm mt-3">Coverage for weddings, corporate events, exhibitions, clubs and private functions — from guest screening to stage and green-room protection.</p>
             <div className="grid grid-cols-3 gap-2 mt-5">
-              <img src="/images/fire-event-safety.png" className="h-28 w-full object-cover" alt="Event 1" />
-              <img src="/images/fire-event-safety.png" className="h-28 w-full object-cover" alt="Event 2" />
-              <img src="/images/fire-event-safety.png" className="h-28 w-full object-cover" alt="Event 3" />
+              <img src="/images/service-event-security.png" className="h-28 w-full object-cover" alt="Event entry security" />
+              <img src="/images/fire-event-safety.png" className="h-28 w-full object-cover" alt="Safety marshal at event" />
+              <img src="/images/canine-handler.png" className="h-28 w-full object-cover" alt="Canine security at venue" />
             </div>
             <Link href="/contact" className="inline-flex mt-6 bg-[#0A1931] text-white px-6 py-3 text-xs tracking-[0.16em] uppercase font-bold">Plan Your Security Coverage</Link>
           </div>

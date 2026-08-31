@@ -7,18 +7,18 @@ export const metadata = {
 };
 
 const services = [
-  { title: "Security Services", desc: "Trained & verified guards, supervisors, officers, bouncers, access control and patrolling.", icon: "shield", img: "/images/guard-visitor-control.png" },
-  { title: "Facility Management", desc: "Society & facility managers, supervisors, inspections and vendor coordination.", icon: "building", img: "/images/mumbai-business-district.png" },
-  { title: "Housekeeping", desc: "Cleaning, sanitization, waste management and hygiene maintenance.", icon: "sparkles", img: "/images/housekeeping-landscaping.png" },
-  { title: "Gardening & Landscaping", desc: "Lawn, garden, irrigation, pruning and landscape maintenance.", icon: "leaf", img: "/images/housekeeping-landscaping.png" },
-  { title: "Fire & Safety", desc: "Fire marshals, inspections, evacuation planning and safety training.", icon: "flame", img: "/images/fire-event-safety.png" },
-  { title: "Dog Squad", desc: "Trained sniffer dogs & handlers for patrol and detection.", icon: "paw", img: "/images/guard-visitor-control.png" },
-  { title: "Event Security", desc: "Crowd control, VIP protection and venue entry management.", icon: "users", img: "/images/fire-event-safety.png" },
-  { title: "Technical Maintenance", desc: "Electrical, plumbing, HVAC, civil and infrastructure support.", icon: "wrench", img: "/images/technical-maintenance.png" },
-  { title: "Pest Control", desc: "Mosquito, termite, cockroach and rodent management.", icon: "bug", img: "/images/technical-maintenance.png" },
-  { title: "Reception & Helpdesk", desc: "Receptionists, helpdesk, pantry and office support staff.", icon: "headset", img: "/images/team-inspection.png" },
-  { title: "Detective Services", desc: "Confidential investigations, verification and surveillance.", icon: "search", img: "/images/team-inspection.png" },
-  { title: "STP Operations", desc: "Sewage treatment plant operation, maintenance & compliance.", icon: "droplet", img: "/images/technical-maintenance.png" },
+  { title: "Security Services", desc: "Trained & verified guards, supervisors, officers, bouncers, access control and patrolling.", icon: "shield", img: "/images/service-security-guard.png" },
+  { title: "Facility Management", desc: "Society & facility managers, supervisors, inspections and vendor coordination.", icon: "building", img: "/images/service-facility-manager.png" },
+  { title: "Housekeeping", desc: "Cleaning, sanitization, waste management and hygiene maintenance.", icon: "sparkles", img: "/images/service-housekeeping.png" },
+  { title: "Gardening & Landscaping", desc: "Lawn, garden, irrigation, pruning and landscape maintenance.", icon: "leaf", img: "/images/service-gardening.png" },
+  { title: "Fire & Safety", desc: "Fire marshals, inspections, evacuation planning and safety training.", icon: "flame", img: "/images/service-fire-safety.png" },
+  { title: "Dog Squad", desc: "Trained sniffer dogs & handlers for patrol and detection.", icon: "paw", img: "/images/service-dog-squad.png" },
+  { title: "Event Security", desc: "Crowd control, VIP protection and venue entry management.", icon: "users", img: "/images/service-event-security.png" },
+  { title: "Technical Maintenance", desc: "Electrical, plumbing, HVAC, civil and infrastructure support.", icon: "wrench", img: "/images/service-technical.png" },
+  { title: "Pest Control", desc: "Mosquito, termite, cockroach and rodent management.", icon: "bug", img: "/images/service-pest-control.png" },
+  { title: "Reception & Helpdesk", desc: "Receptionists, helpdesk, pantry and office support staff.", icon: "headset", img: "/images/service-helpdesk.png" },
+  { title: "Detective Services", desc: "Confidential investigations, verification and surveillance.", icon: "search", img: "/images/service-investigation.png" },
+  { title: "STP Operations", desc: "Sewage treatment plant operation, maintenance & compliance.", icon: "droplet", img: "/images/service-stp.png" },
 ];
 
 const whyChoose = [
