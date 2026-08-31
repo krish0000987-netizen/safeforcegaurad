@@ -12,7 +12,7 @@ export default function Footer() {
           </div>
           <div className="flex gap-3 shrink-0">
             <Link href="/contact" className="bg-[#C5A253] hover:bg-[#D4AF37] text-[#070F1F] px-7 py-3.5 text-xs tracking-[0.14em] uppercase font-bold transition">Request Consultation</Link>
-            <a href="tel:9323581437" className="border border-white/20 hover:bg-white hover:text-[#070F1F] px-7 py-3.5 text-xs tracking-[0.14em] uppercase font-bold transition">Call Now</a>
+            <a href="tel:9136645289" className="border border-white/20 hover:bg-white hover:text-[#070F1F] px-7 py-3.5 text-xs tracking-[0.14em] uppercase font-bold transition">Call Now</a>
           </div>
         </div>
       </div>
@@ -86,7 +86,6 @@ export default function Footer() {
             <div className="space-y-4">
               <div>
                 <div className="text-white/40 text-[11px] tracking-widest uppercase mb-1">Call Us 24/7</div>
-                <a href="tel:9323581437" className="block text-white font-bold text-lg hover:text-[#C5A253] transition">9323581437</a>
                 <a href="tel:9136645289" className="block text-white font-bold text-lg hover:text-[#C5A253] transition">9136645289</a>
               </div>
               <div>

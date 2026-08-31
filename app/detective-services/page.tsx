@@ -57,7 +57,7 @@ export default function DetectivePage() {
             <Link href="/contact" className="inline-flex mt-8 bg-[#C5A253] text-[#070F1F] px-7 py-3.5 text-xs tracking-[0.16em] uppercase font-bold">Request Confidential Consultation</Link>
           </div>
           <div className="relative">
-            <img src="/images/investigation-consultation.png" alt="Investigation consultation" className="w-full h-[460px] object-cover opacity-90" />
+            <img src="/images/service-investigation.png" alt="Investigation consultation" className="w-full h-[460px] object-cover opacity-90" />
             <div className="absolute inset-0 border border-[#C5A253]/20 m-4 pointer-events-none" />
           </div>
         </div>

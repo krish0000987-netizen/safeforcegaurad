@@ -18,7 +18,7 @@ export default function HousekeepingPage() {
         <div className="max-w-[1280px] mx-auto px-6 space-y-16">
           {/* Housekeeping */}
           <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <img src="/images/housekeeping-landscaping.png" alt="Housekeeping" className="w-full h-[420px] object-cover" />
+            <img src="/images/service-housekeeping.png" alt="Housekeeping" className="w-full h-[420px] object-cover" />
             <div>
               <div className="text-[#C5A253] text-[11px] tracking-[0.20em] uppercase font-bold mb-3">Housekeeping</div>
               <h2 className="text-[#0A1931] font-black text-[28px] leading-none">Professional Cleaning & Sanitization</h2>
@@ -43,12 +43,12 @@ export default function HousekeepingPage() {
                 ))}
               </ul>
             </div>
-            <img src="/images/housekeeping-landscaping.png" alt="Gardening" className="w-full h-[420px] object-cover order-1 lg:order-2" />
+            <img src="/images/service-gardening.png" alt="Gardening" className="w-full h-[420px] object-cover order-1 lg:order-2" />
           </div>
 
           {/* Pest control */}
           <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <img src="/images/housekeeping-landscaping.png" alt="Pest control and hygiene" className="w-full h-[420px] object-cover" />
+            <img src="/images/service-pest-control.png" alt="Pest control and hygiene" className="w-full h-[420px] object-cover" />
             <div>
               <div className="text-[#C5A253] text-[11px] tracking-[0.20em] uppercase font-bold mb-3">Pest Control & Hygiene</div>
               <h2 className="text-[#0A1931] font-black text-[28px] leading-none">Preventive Hygiene & Pest Management</h2>

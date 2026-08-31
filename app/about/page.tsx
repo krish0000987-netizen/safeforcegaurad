@@ -10,7 +10,7 @@ export default function AboutPage() {
         eyebrow="About SAFE Guard FORCE"
         title={`Built Around Safety.\nDriven by Professionalism.`}
         subtitle="An integrated security, facility, technical and investigation organization delivering safer, cleaner and efficiently managed premises across Mumbai."
-        image="/images/team-inspection.png"
+        image="/images/mumbai-business-district.png"
       />
 
       {/* Who we are */}
@@ -43,8 +43,8 @@ export default function AboutPage() {
                   <div className="text-[#0A1931] font-black text-xs tracking-widest uppercase mt-2">SAFE GUARD FORCE</div>
                   <div className="text-[#C5A253] text-[10px] tracking-widest uppercase font-bold">Your Security. Our Priority.</div>
                 </div>
-                <img src="/images/team-inspection.png" alt="Team" className="h-[118px] w-full object-cover" />
-                <img src="/images/team-inspection.png" alt="Facility" className="h-[118px] w-full object-cover" />
+                <img src="/images/team-inspection.png" alt="Team inspection" className="h-[118px] w-full object-cover" />
+                <img src="/images/service-facility-manager.png" alt="Facility management" className="h-[118px] w-full object-cover" />
               </div>
             </div>
             <div className="bg-[#0A1931] p-4 flex items-center gap-3">
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <Link href="/contact" className="inline-flex mt-8 bg-[#C5A253] text-[#0A1931] px-7 py-3.5 text-xs tracking-[0.16em] uppercase font-bold">Discuss Your Requirements</Link>
           </div>
           <div className="relative">
-            <img src="/images/hero-mumbai-security.png" alt="Management approach - guard" className="w-full h-[460px] object-cover object-top border border-white/10" />
+            <img src="/images/technical-maintenance.png" alt="Management approach - technical operations" className="w-full h-[460px] object-cover object-top border border-white/10" />
             <div className="absolute bottom-4 left-4 right-4 bg-white p-3 flex items-center gap-3">
               <img src="/images/safelogo.png" alt="Logo" className="w-10 h-10 object-contain" />
               <div className="text-[#0A1931] text-xs font-bold tracking-widest uppercase">Nationwide Security Group <span className="text-[#C5A253]">• Mumbai</span></div>
