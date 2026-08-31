@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-white p-0.5 shrink-0 overflow-hidden">
+              <div className="w-10 h-10 bg-transparent shrink-0 overflow-hidden">
                 <img src="/images/safelogo.png" alt="SAFE Guard FORCE" className="w-full h-full object-contain" />
               </div>
               <div className="leading-none">
