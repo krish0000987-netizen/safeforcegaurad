@@ -48,7 +48,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="bg-[#0A1931] p-4 flex items-center gap-3">
-              <img src="/images/safelogo.png" alt="Badge" className="w-10 h-10 bg-white p-1 object-contain" />
+              <img src="/images/safelogo.png" alt="Badge" className="w-10 h-10 object-contain" />
               <div className="text-white text-xs leading-tight">
                 <span className="text-[#C5A253] font-bold tracking-widest uppercase">Authentic Personnel</span><br />
                 <span className="text-white/70">Light blue shirt • Red beret • SAFE belt & patch • White gloves</span>

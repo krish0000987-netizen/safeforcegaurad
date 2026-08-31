@@ -60,7 +60,7 @@ export default function Header() {
         <div className="max-w-[1280px] mx-auto px-3 sm:px-4 lg:px-6 flex items-center justify-between h-[60px] sm:h-[64px] lg:h-[76px]">
           {/* Logo - always visible, optimized for mobile */}
           <Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0 touch-manipulation" onClick={() => setOpen(false)}>
-            <div className="w-9 h-9 sm:w-10 sm:h-10 lg:w-11 lg:h-11 bg-white p-0.5 shrink-0 overflow-hidden">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 lg:w-11 lg:h-11 bg-transparent shrink-0 overflow-hidden">
               <img src="/images/safelogo.png" alt="SAFE Guard FORCE Logo" className="w-full h-full object-contain" />
             </div>
             <div className="leading-none">
